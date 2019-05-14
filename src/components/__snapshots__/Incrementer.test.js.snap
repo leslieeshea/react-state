@@ -3,7 +3,7 @@
 exports[`Incrementer component renders an Incremementer 1`] = `
 <Fragment>
   <p>
-    Current count: 
+    Current Count: 
     0
   </p>
   <button
