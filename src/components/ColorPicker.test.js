@@ -25,4 +25,12 @@ describe('ColorPicker component', () => {
     wrapper.find('button').at(2).simulate('click');
     expect(wrapper.state('color')).toEqual('blue');
   });
+
+  it('changes div className based on selected color', done => {
+    const wrapper = shallow(<ColorPicker />);
+    wrapper.setState({ color: 'red' }, () => {
+      expect(wrapper.find('div').at(0).hasClass('red')).toBeTruthy();
+      done();
+    });
+  });
 });
