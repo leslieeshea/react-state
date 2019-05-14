@@ -7,4 +7,10 @@ describe('ColorPicker component', () => {
     const wrapper = shallow(<ColorPicker />);
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('changes color to red on button click', () => {
+    const wrapper = shallow(<ColorPicker />);
+    wrapper.find('button').at(0).simulate('click');
+    expect(wrapper.state('color')).toEqual('red');
+  });
 });
