@@ -1,0 +1,14 @@
+h1 {
+    font-family: monospace;
+    background: palevioletred;
+    color: white;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+button {
+    border: 1px solid black;
+}
+

@@ -1,6 +1,12 @@
 import React from 'react';
+import Header from './Header';
 import Incrementer from './Incrementer';
 
 export default function App() {
-  return <Incrementer />;
+  return (
+    <>
+      <Header />
+      <Incrementer />
+    </>
+  );
 }

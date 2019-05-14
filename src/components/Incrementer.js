@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import './Incrementer.css';
 
 export default class Incrementer extends PureComponent {
   state = {
@@ -16,7 +17,7 @@ export default class Incrementer extends PureComponent {
     
     return (
       <>
-        <p>Current count: {count}</p>
+        <p>Current Count: {count}</p>
         <button onClick={this.incrementCount}>Increment</button>
       </>
     );
