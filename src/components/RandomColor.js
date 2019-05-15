@@ -22,7 +22,7 @@ export default class RandomColor extends PureComponent {
 
   componentDidUpdate(prevProps, prevState) {
     if(prevState.color === this.state.color) {
-      this.setState({ img: 'https://thumbs.gfycat.com/DemandingWelltodoGallinule-poster.jpg' });
+      this.setState({ img: 'https://i.dailymail.co.uk/i/pix/2016/03/18/15/324D202500000578-3498922-image-a-33_1458315465874.jpg' });
     }
   }
 
