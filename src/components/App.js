@@ -12,7 +12,6 @@ export default class App extends PureComponent {
     this.setState({ color });
   }
 
-
   render() {
     const { color } = this.state;
 
